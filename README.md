@@ -9,5 +9,5 @@ docker run --name postgres -e POSTGRES_PASSWORD=password -p 5433:5432 -v postgre
 Check your running database using `docker stats`. If there is a problem, change external port from 5433 to another free port.
 
 ### Running the Go server
-Start up the server as a Go package by executing in the root: `go run meadium_streaming`
+Start up the server as a Go package by executing in the root: `go run medium_streaming`
 Visit the `http://localhost` to see the server notifications rendered in the browser.
